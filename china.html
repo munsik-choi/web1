@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    body{
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    header{
+      background: gray;
+      padding: 5px;
+    }
+    ul li{
+      list-style: none;
+      padding: 10px;
+      margin: 5px;
+      background: skyblue;
+      width: 100px;
+    }
+    li:hover{
+      background: gray;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    section{
+      flex-direction: row;
+    }
+    nav{
+      width: 20%;
+    }
+    ul{
+      float: left;
+    }
+    main{
+      width: 80%;
+      float: right;
+    }
+    footer{
+      background: gray;
+      padding: 30px;
+    }
+    @media screen and (max-width: 500px) {
+      ul li{
+        width: 400px;
+        text-align: center;
+      }
+      main{
+        float: left;
+        margin: 0px 0px 10px 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>China</h1>
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="#">The flight</a></li>
+        <li><a href="#">The island</a></li>
+        <li><a href="#">Teh food</a></li>
+        <li><a href="#">The City</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>China</h2>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit placeat, impedit eveniet commodi, magnam qui laboriosam autem nisi unde in debitis. Architecto eligendi facilis cumque quam aliquid corporis magnam soluta sapiente blanditiis mollitia ea obcaecati vitae, accusamus consequuntur consectetur eius dolore necessitatibus iure doloremque voluptates, culpa excepturi ad molestiae ratione. Facere unde blanditiis provident maxime ab itaque vitae, at ut voluptas, animi aperiam asperiores iusto quisquam fuga ipsum! Autem animi quisquam voluptate asperiores architecto impedit dolorum explicabo cumque ex ipsa, qui magni expedita nam dicta natus laborum totam temporibus vitae veritatis quos in omnis quaerat, cum recusandae! Cum, neque ratione!
+      </div>
+    </main>
+  </section>
+
+  <footer>
+    footer text
+  </footer>
+</body>
+</html>
